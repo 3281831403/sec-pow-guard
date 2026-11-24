@@ -1,0 +1,14 @@
+[project]
+name = "sec-pow-guard"
+version = "0.1.0"
+description = "Proof-of-work challenge validation exercise"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
